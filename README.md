@@ -1,5 +1,5 @@
 # BIL476_ElasticSearch
-Building a Qeury Builder with Elastic Search and Kibana
+Building a Query Builder with Elastic Search and Kibana
 
 
 
