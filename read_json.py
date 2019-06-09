@@ -5,10 +5,24 @@ import logging
 
 
 # Simple search function for elastic search
-def search(es_object, index_name, search):
+def searchFullText(es, index_name, name, value):
 
-    res = es_object.search(index=index_name, body=search)
+    search_body = {'query':
+                       {'match':
+                            {name: value}
+                       }
+                  }
+
+    res = es.search(index=index_name, body=search_body)
+    pprint(res['hits']['hits'])
+    #pprint(res)
+
+
+def searchByIndex(es_object, index_name, type, id):
+
+    res = es_object.get(index=index_name, doc_type=type, id=id)
     pprint(res)
+
 
 # Function for creating index in Elastic Search
 def createIndex(es, index_name, type_name):
@@ -49,7 +63,7 @@ def createIndex(es, index_name, type_name):
 # Establish connection to elastic search and returns ES object
 def connectElasticSearch():
 
-    es = Elasticsearch([{'host': 'localhost', 'port': 9200}])
+    es = Elasticsearch([{'host': 'localhost', 'port': 9200}],sniff_on_start=True)
     #es.indices.create(index='restaurant')
 
     # returns true if connection is successful
@@ -81,8 +95,11 @@ if __name__ == '__main__':
     es = connectElasticSearch()
     es = createIndex(es,"restaurant","fastfood")
 
-    storeElasticSearch(es)
+    es = storeElasticSearch(es)
+    es.indices.refresh(index="restaurant")
 
-    # Search all the records in ES to find name equals Roberta's Pizzax
-    #search(es, 'restaurant', json.dumps({'query': {'match': {'name': 'Roberta}\'s Pizza'}}}))
+    #searchByIndex(es,"restaurant", "fastfood", 3)
 
+    #searchForMatch(es, "restaurant", "neighborhood", "Manhattan")
+
+    searchFullText(es, "restaurant", "Roberta's")
