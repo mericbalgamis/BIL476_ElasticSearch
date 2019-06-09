@@ -1,0 +1,40 @@
+ {
+    "id": 6,
+    "name": "Hometown BBQ",
+    "neighborhood": "Brooklyn",
+    "photograph": "6.jpg",
+    "address": "454 Van Brunt St, Brooklyn, NY 11231",
+    "latlng": {
+      "lat": 40.674925,
+      "lng": -74.016162
+    },
+    "cuisine_type": "American",
+    "operating_hours": {
+      "Monday": "Closed",
+      "Tuesday": "12:00 pm - 10:00 pm",
+      "Wednesday": "12:00 pm - 10:00 pm",
+      "Thursday": "12:00 pm - 10:00 pm",
+      "Friday": "12:00 pm - 11:00 pm",
+      "Saturday": "12:00 pm - 11:00 pm",
+      "Sunday": "12:00 pm - 9:00 pm"
+    },
+    "reviews": [{
+        "name": "Steve",
+        "date": "October 26, 2016",
+        "rating": 4,
+        "comments": "Barbecue aficionados agree that Billy Durney is cooking up some of the best Texas-style barbecue in the city. Straightforward classics like smoked brisket and baby back ribs are always a strong choice, but there are also options like pork belly tacos and a lamb belly banh mi. The space is sprawling in a way that feels like the real deal, and Durney himself can usually be found working the room, and keeping a watchful eye on the smoking meats. It's counter service only, and there's often a line, but for the scene and certainly for the meat, it's easily worth the trip to Red Hook."
+      },
+      {
+        "name": "Michelle",
+        "date": "October 26, 2016",
+        "rating": 4,
+        "comments": "Overall, a great try of New York BBQ. The restaurant décor is rustic with a good amount of seats to sit and enjoy the meal. I definitely would love to come back and try that monster of a beef rib!"
+      },
+      {
+        "name": "Ai-Mei",
+        "date": "October 26, 2016",
+        "rating": 4,
+        "comments": "mmmmmm, what a gem this is in bklyn! I loveeee how soft their brisket is here. Their pork tacos are to die for, their different variety of ribs and lastly, their lamb is not gamey at all. Super wallet friendly for the amount they give you. I highly recommend this spot- after eating here, you can definitely walk over for Steve's key lime pies."
+      }
+    ]
+  }

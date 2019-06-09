@@ -1,0 +1,40 @@
+{
+    "id": 8,
+    "name": "The Dutch",
+    "neighborhood": "Manhattan",
+    "photograph": "8.jpg",
+    "address": "131 Sullivan St, New York, NY 10012",
+    "latlng": {
+      "lat": 40.726584,
+      "lng": -74.002082
+    },
+    "cuisine_type": "American",
+    "operating_hours": {
+      "Monday": "11:30 am - 3:00 pm, 5:30 pm - 11:00 pm",
+      "Tuesday": "11:30 am - 3:00 pm, 5:30 pm - 11:00 pm",
+      "Wednesday": "11:30 am - 3:00 pm, 5:30 pm - 11:00 pm",
+      "Thursday": "11:30 am - 3:00 pm, 5:30 pm - 11:00 pm",
+      "Friday": "11:30 am - 3:00 pm, 5:30 pm - 11:30 pm",
+      "Saturday": "10:00 am - 3:00 pm, 5:30 pm - 11:30 pm",
+      "Sunday": "10:00 am - 3:00 pm, 5:30 pm - 11:00 pm"
+    },
+    "reviews": [{
+        "name": "Steve",
+        "date": "October 26, 2016",
+        "rating": 4,
+        "comments": "Over the last five years, The Dutch has turned into the quintessential American restaurant that chef Andrew Carmellini and partners Josh Pickard and Luke Ostrom sought to evoke when it first opened. It’s a great choice when you’re craving a steak, a burger, or oysters, and the menu always includes plentiful seafood options as well as pastas. The Dutch is now an indelible part of the Soho landscape."
+      },
+      {
+        "name": "Loren",
+        "date": "October 26, 2016",
+        "rating": 4,
+        "comments": "I randomly came here on a Saturday night. I was pleasantly surprised with the food and the service. We had the calamari and the ceviche with avocado, and then the catfish. Oh! Then we had the banana soufflé for dessert with ice cream. It was all delicious and well put together. Would love to eat here again."
+      },
+      {
+        "name": "Lori",
+        "date": "October 26, 2016",
+        "rating": 4,
+        "comments": "Aside from the slightly claustrophobic dining area and the fact that you may have difficulty hearing your dining companion, I'd return to The Dutch without hesitation. The food is surprisingly well-executed and conceived, and our dinner service flowed smoothly without a hitch. Just make sure to get a reservation in advance, as I'm sure more than just a few other people will have the same idea."
+      }
+    ]
+  }

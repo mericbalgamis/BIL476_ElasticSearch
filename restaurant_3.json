@@ -1,0 +1,40 @@
+{
+    "id": 3,
+    "name": "Kang Ho Dong Baekjeong",
+    "neighborhood": "Manhattan",
+    "photograph": "3.jpg",
+    "address": "1 E 32nd St, New York, NY 10016",
+    "latlng": {
+      "lat": 40.747143,
+      "lng": -73.985414
+    },
+    "cuisine_type": "Asian",
+    "operating_hours": {
+      "Monday": "11:30 am - 2:00 am",
+      "Tuesday": "11:30 am - 2:00 am",
+      "Wednesday": "11:30 am - 2:00 am",
+      "Thursday": "11:30 am - 2:00 am",
+      "Friday": "11:30 am - 6:00 am",
+      "Saturday": "11:30 am - 6:00 am",
+      "Sunday": "11:30 am - 2:00 am"
+    },
+    "reviews": [{
+        "name": "Steve",
+        "date": "October 26, 2016",
+        "rating": 4,
+        "comments": "The tables at this 32nd Street favorite are outfitted with grills for cooking short ribs, brisket, beef tongue, rib eye, and pork jowl. The banchan plates are uniformly good, and Deuki Hong’s menu also includes winning dishes like stir-fried squid noodles, kimchi stew, and seafood pancakes. If it’s available, make sure to order the kimchi and rice “lunchbox.” Baekjeong is a great place for large groups and birthday parties."
+      },
+      {
+        "name": "ZS",
+        "date": "October 26, 2016",
+        "rating": 5,
+        "comments": "I've been to Korea before and many other Korean BBQ places. We had the regular pork belly and a beef (forgot which cut) and a seafood tofu soup. Two meat and a soup was just prefect for the two of us. We could have done one meat and one soup. The portions of the meat are great! The beef was juicy, tender and so good. The sides were excellent. "
+      },
+      {
+        "name": "Emily",
+        "date": "October 26, 2016",
+        "rating": 2,
+        "comments": "MEH. I've tried their Jersey location as well but Kang Ho Dong meat quality is severely decreasing. A Korean bbq place with whatever meat? I think NOT!"
+      }
+    ]
+  }
